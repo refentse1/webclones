@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.hero{
+    background-image: url("/tay-bannerHome.webp");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+.text{
+    margin-left: 200px;
+    margin-top: 125px;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    font-weight: 600;
+    font-size: 69px;
+    margin-bottom: 65px;
+    color: white;
+}
+.paragraph{
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 65px;
+}
+.button{
+    width: 279.6px;
+    height:66px;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 18px 90px;
+    color: rgb(53, 53, 53);
+    transition: 0.3s;
+}
+.button:hover{
+    width: 279.6px;
+    height:66px;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 18px 90px;
+    background-color: rgb(30,30, 30);
+    color: rgb(255,255,255);
+    transition: 0.3s;
+}

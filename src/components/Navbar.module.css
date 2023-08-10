@@ -1,0 +1,51 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+.logo{
+    margin-left: 75px;
+}
+.navoptions{
+    display: flex;
+    margin-right: 55px;
+}
+.navitems{
+    display: flex;
+    margin-right: 25px;
+}
+.navitem{
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.navlink{
+    text-decoration: none;
+    font-size: 16px;
+    color:#393e46;
+    font-weight: 600;
+    padding: 2px 0;
+    transition: 0.3s;
+    position:relative;
+    z-index: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navlink:hover{
+    text-decoration: none;
+    font-size: 16px;
+    color:#e6c8bb;
+    font-weight: 600;
+    padding: 2px 0;
+    transition: 0.3s;
+    position:relative;
+    z-index: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.cart{
+    width: 24px;
+    height: 24px;
+}
+
+/* Add breakpoint for screens with less than 991 width */
+
